@@ -30,10 +30,10 @@ $factory->define(User::class, function (Faker $faker) {
     ];
 });
 
-$factory->define(Category::class, function (Faker $faker) {
-    return [
-        'name' => $faker->word,
-        'description' => $faker->paragraph(1) 
-    ];
-});
+// $factory->define(Category::class, function (Faker $faker) {
+//     return [
+//         'name' => $faker->word,
+//         'description' => $faker->paragraph(1) 
+//     ];
+// });
 
