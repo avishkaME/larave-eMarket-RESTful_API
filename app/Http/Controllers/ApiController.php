@@ -8,4 +8,8 @@ use Illuminate\Http\Request;
 class ApiController extends Controller
 {
     use ApiResponser;
+
+    public function __construct()
+    {
+    }
 }
